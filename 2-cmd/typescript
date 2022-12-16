@@ -1,0 +1,136 @@
+Script started on 2022-12-14 14:37:52+0800
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scr
+screendump    script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scriptreplay 
+scriptreplay: wrong number of arguments
+Try 'scriptreplay --help' for more information.
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ emac[K[K[K
+e2freefrag          e4defrag            editres             elif                enchant-lsmod       esac                eventlogadm         exit
+e2fsck              echo                efibootdump         else                env                 escapesrc           evince              expand
+e2image             ed                  efibootmgr          enable              envsubst            espdiff             evince-previewer    expiry
+e2label             edit                egrep               enc2xs              eog                 ethtool             evince-thumbnailer  export
+e2undo              editdiff            eject               encguess            eps2eps             eutp                ex                  expr
+e4crypt             editor              elfedit             enchant             eqn                 eval                exec                eyuvtoppm
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ em[K[Kscript -t 2 [K> timing.log -a output.session
+Script started, file is output.session
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ tclsh
+% puts [expr 2 + 2 ]
+4
+% exit
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scriptreplay r[Ktiming.log  output.session 
+
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scriptreplay timing.log  output.session ^C^C
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ vi 2-2-cat.sh 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"2-2-cat.sh" 17 lines, 293 characters[1;1H#!/bin/bash
+#打印多个文件的内容
+#cat file1 file2
+#man cat
+
+#去除多余的空白行 压缩成单独的一行
+#cat -s file
+
+#将制表符标志为^I
+#cat -T file
+
+#显示行号（包括空白行） -b 忽略空白行
+#cat -n file
+
+
+#录制并回放终端会话
+#script   scriptreplay
+[1m[34m~                                                                                                                                                                              [19;1H~                                                                                                                                                                              [20;1H~                                                                                                                                                                              [21;1H~                                                                                                                                                                              [22;1H~                                                                                                                                                                              [23;1H~                                                                                                                                                                              [24;1H~                                                                                                                                                                              [25;1H~                                                                                                                                                                              [26;1H~                                                                                                                                                                              [27;1H~                                                                                                                                                                              [28;1H~                                                                                                                                                                              [29;1H~                                                                                                                                                                              [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?2004l[?25l[m[18;1H[K[18;1H[?25h[?25lscript -t 2> timing.log -a output.session[?25h[?25lo[?25h[?2004h[?25l[18;42H[K[18;41H[?25h[?2004l[?25l[19;1H[K[19;1H[?25h[?25lt[?25h[?25lc[?25h[?25ll[?25h[?25ls[?25h[?25lh[?25h[?25l[20;1H[K[20;1H[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25ls[?25h[?25l [?25h[?25l[[?25h[?25l [?25h[?25le[?25h[?25lx[?25h[?25lp[?25h[?25lr[?25h[?25l [?25h[?25l2[?25h[?25l [?25h[?25l+[?25h[?25l [?25h[?25l2[?25h[?25l [?25h[?25l][?25h[?25l[21;1H[K[21;1H[?25h[?25le[?25h[?25lx[?25h[?25li[?25h[?25lt[?25h[?25l[22;1H[K[22;1H[?25h[?25l[23;1H[K[23;1H[?25h[?25ls[?25h[?25lc[?25h[?25lr[?25h[?25li[?25h[?25lp[?25h[?25lt[?25h[?25lt[?25h[?2004h[?25lT[?25h[?25l[23;7H[K[23;6H[?25h[?2004lt[?25lr[?25h[?25le[?25h[?25lp[?25h[?25ll[?25h[?25la[?25h[?25ly[?25h[?25l [?25h[?25lt[?25h[?25li[?25h[?25lm[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l.[?25h[?25ll[?25h[?25lo[?25h[?25lg[?25h[?25l [?25h[?25lo[?25h[?25lu[?25h[?25lt[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l.[?25h[?25ls[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?2004h[?25l[30;1H[K[30;1H:[?2004h[?25hwq![?25l[?2004l"2-2-cat.sh" 23 lines, 406 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ bash 2-2-cat.sh 
+Script started, file is output.session
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ cat^C
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ cat output.session 
+Script started on 2022-12-14 14:39:57+0800
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ tclsh
+% puts [expr 2 + 2 ]
+4
+% exit
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ script
+script        scriptreplay  
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scriptreplay r[Ktiming.log  output.session 
+
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ scriptreplay timing.log  output.session ^C^C
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ vi 2-2-cat.sh 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"2-2-cat.sh" 17 lines, 293 characters[1;1H#!/bin/bash
+#打印多个文件的内容
+#cat file1 file2
+#man cat
+
+#去除多余的空白行 压缩成单独的一行
+#cat -s file
+
+#将制表符标志为^I
+#cat -T file
+
+#显示行号（包括空白行） -b 忽略空白行
+#cat -n file
+
+
+#录制并回放终端会话
+#script   scriptreplay
+[1m[34m~                                                                                                                                                                              [19;1H~                                                                                                                                                                              [20;1H~                                                                                                                                                                              [21;1H~                                                                                                                                                                              [22;1H~                                                                                                                                                                              [23;1H~                                                                                                                                                                              [24;1H~                                                                                                                                                                              [25;1H~                                                                                                                                                                              [26;1H~                                                                                                                                                                              [27;1H~                                                                                                                                                                              [28;1H~                                                                                                                                                                              [29;1H~                                                                                                                                                                              [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?2004l[?25l[m[18;1H[K[18;1H[?25h[?25lscript -t 2> timing.log -a output.session[?25h[?25lo[?25h[?2004h[?25l[18;42H[K[18;41H[?25h[?2004l[?25l[19;1H[K[19;1H[?25h[?25lt[?25h[?25lc[?25h[?25ll[?25h[?25ls[?25h[?25lh[?25h[?25l[20;1H[K[20;1H[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25ls[?25h[?25l [?25h[?25l[[?25h[?25l [?25h[?25le[?25h[?25lx[?25h[?25lp[?25h[?25lr[?25h[?25l [?25h[?25l2[?25h[?25l [?25h[?25l+[?25h[?25l [?25h[?25l2[?25h[?25l [?25h[?25l][?25h[?25l[21;1H[K[21;1H[?25h[?25le[?25h[?25lx[?25h[?25li[?25h[?25lt[?25h[?25l[22;1H[K[22;1H[?25h[?25l[23;1H[K[23;1H[?25h[?25ls[?25h[?25lc[?25h[?25lr[?25h[?25li[?25h[?25lp[?25h[?25l]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shell-bash/2-cmd$ 
+]0;user@ubuntu: ~/shell-bash/2-cmduser@ubuntu:~/shel
